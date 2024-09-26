@@ -42,7 +42,7 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="relative group">
+            <Link to="/services" className="relative group">
               Our Services
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-transparent transform transition-all duration-300 ease-out translate-y-0 group-hover:bg-[rgba(7,98,67,1)] group-hover:translate-y-1"></span>
             </Link>
@@ -85,7 +85,10 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/services" className="hover:text-[rgba(7,98,67,1)] relative group">
+            <Link
+              to="/services"
+              className="hover:text-[rgba(7,98,67,1)] relative group"
+            >
               Our Services
               <span className="absolute bottom-0 left-0 w-full h-0.5 bg-transparent transform transition-all duration-300 ease-out translate-y-0 group-hover:bg-[rgba(7,98,67,1)] group-hover:translate-y-1"></span>
             </Link>
