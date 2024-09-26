@@ -28,7 +28,7 @@ export const Navbar = () => {
 
         {/* Search Icon on small screens */}
         <div className="flex lg:hidden items-center space-x-4">
-          <Link className=" px-4 py-2 bg-[rgba(7,98,67,1)] text-white rounded">
+          <Link className="text-[12px] sm:text-[16px] px-4 py-2 bg-[rgba(7,98,67,1)] text-white rounded">
             Join us for worship
           </Link>
         </div>
