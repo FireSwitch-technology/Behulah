@@ -15,7 +15,7 @@ const Contact = () => {
             <input
               type="text"
               id="name"
-              className=" w-full h-[40px] my-2 border border-footerTxtColor bg-transparent outline-none p-4 placeholder:text-footerTxtColor  text-white "
+              className=" w-full h-[40px] my-2 border border-footerTxtColor bg-transparent outline-none p-4"
             />
           </label>
           <label htmlFor="">
@@ -23,7 +23,7 @@ const Contact = () => {
             <input
               type="email"
               id="name"
-              className=" w-full h-[40px] my-2 border border-footerTxtColor bg-transparent outline-none p-4 placeholder:text-footerTxtColor  text-white"
+              className=" w-full h-[40px] my-2 border border-footerTxtColor bg-transparent outline-none p-4"
             />
           </label>
         </div>
@@ -31,7 +31,7 @@ const Contact = () => {
           Message
           <textarea
             id=""
-            className=" w-full h-[100px] my-2 border p-4 border-footerTxtColor bg-transparent outline-none  text-blue-500 "
+            className=" w-full h-[100px] my-2 border p-4 bg-transparent outline-none"
           ></textarea>
         </div>
         <button className="px-6 py-2 bg-[rgba(7,98,67,1)] text-white rounded flex mx-auto md:mx-0">
