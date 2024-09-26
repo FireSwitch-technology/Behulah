@@ -1,8 +1,8 @@
 import React from "react";
 import cloud from "../../assets/Cloud.png";
-import Church from "../../assets/church.png";
-import Bible from "../../assets/bible.png";
-import Mount from "../../assets/mountain.png";
+import Church from "../../assets/Church.png";
+import Bible from "../../assets/Bible.png";
+import Mount from "../../assets/Mountain.png";
 
 const Services = () => {
   return (
