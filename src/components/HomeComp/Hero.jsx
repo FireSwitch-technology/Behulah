@@ -11,7 +11,7 @@ const Hero = () => {
               Preach the Word of God
             </h3>
             <h1 className=" text-center my-8 text-white font-bold text-2xl sm:text-4xl md:text-6xl">
-              Welcome to <br className="hidden md:block" /> Glorious Hephzibah
+              Wevvlcome to <br className="hidden md:block" /> Glorious Hephzibah
               Beulah Ministry
             </h1>
             <button className="px-4 py-2 bg-white text-[rgba(7,98,67,1)] rounded flex mx-auto">
