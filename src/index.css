@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .grid {
   width: 100%;
-  /* height: 100vh; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(100px, auto);
@@ -31,3 +32,18 @@
   height: 50%;
   object-fit: cover;
 }
+
+/* for the testimonial slider */
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+/* for footer logo shadow */
+  .shadow-inner-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.6); /* Adjust shadow as needed */
+    pointer-events: none; /* Prevents the overlay from interfering with clicks */
+    border-radius: inherit; /* Matches the image border radius */
+  }

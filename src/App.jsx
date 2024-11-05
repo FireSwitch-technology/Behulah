@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-<div>
+<div className=' font-Inter'>
   <Navbar/>
   <Routes>
     <Route path="/" element={<Homepage />} />
