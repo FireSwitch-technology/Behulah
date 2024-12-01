@@ -30,10 +30,13 @@ const Footer = () => {
 
         {/* Middle: Contact Information Section */}
         <div className="text-center md:text-left">
-          <p className="font-semibold">Phone: +234 123 456 676</p>
-          <p className="font-semibold">Email: hepnizah@gmail.com</p>
+          <p className="font-semibold">Phone No: 0806 243 6989</p>
+          <a href="mailto:judgedestiny56@gmail.com" className="font-semibold">
+            Email: Oluyehuntundeakinlolu@gmail.com
+          </a>
           <p className="font-semibold">
-            Address: C.A.C Oke Itusile, Akuro, Moniya, Ibadan
+            Address: No 45 Ishakunmi Street, Behind comprehensive health center
+            Ikare Akoko, Ondo state, Nigeria.
           </p>
         </div>
 
@@ -41,7 +44,8 @@ const Footer = () => {
         <div className="flex space-x-4 py-6">
           {/* Facebook Icon */}
           <a
-            href="https://facebook.com" // Link to Facebook page
+            href="https://www.facebook.com/profile.php?id=100082237632778&mibextid=ZbWKwL
+" // Link to Facebook page
             target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Prevents security risk with external links
             className="text-black p-1 rounded-md bg-white hover:text-black transition duration-300" // Styling and transition effect
@@ -51,7 +55,7 @@ const Footer = () => {
 
           {/* Instagram Icon */}
           <a
-            href="https://instagram.com" // Link to Instagram page
+            href="https://www.instagram.com/oluyehuntunde?igsh=cTgxeDkxNHRiMmFx" // Link to Instagram page
             target="_blank" // Opens link in a new tab
             rel="noopener noreferrer" // Prevents security risk with external links
             className="text-black p-1 rounded-md bg-white hover:text-black transition duration-300" // Styling and transition effect

@@ -16,6 +16,30 @@ const AboutUs = () => {
     {
       para: "3. To organize bible studies, teachings, seminars, discussions, and any other programme to facilitate the study of the bible.",
     },
+    {
+      para: "4. To hold crusades, camp meetings, gatherings, conventions, fellowships, conferences, and any other meetings by whatever name it is called for the pursuance of its objectives.",
+    },
+    {
+      para: "5. To organize christian counseling, follow-up, teachings, trainings, seminars, symposia, and any other similar programmes for the benefit of its members and any other persons.",
+    },
+    {
+      para: "6. To encourage the study, understanding and practical application of bible truth in everyday life.",
+    },
+    {
+      para: "7. To promote mutual understanding, love, peace, and unity among people.",
+    },
+    {
+      para: "8. To cooperate with anybody or bodies whose aims and objectives are identical with or complementary to the church's.",
+    },
+    {
+      para: "9. To engage and participate in and encourage charitable, benevolent and other merciful activities towards all men and especially those of the household of faith, in any part of the world.",
+    },
+    {
+      para: "10. To undertake, promote, develop, and carry out charitable, educational, christian religious and scientific programmes in line with our objectives to enhance the quality of life and wellbeing of individuals and communities in nigeria and the world at large.",
+    },
+    {
+      para: "11. To perform all such other lawful things as are incidental or conducive to the attainment of the above objects or any of them.",
+    },
   ];
 
   // Returning JSX to render the component
